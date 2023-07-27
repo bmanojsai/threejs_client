@@ -29,7 +29,6 @@ const CameraRig = ({ children }) => {
         //set the modal camera position
         easing.damp3(state.camera.position, targetPosition, 0.25, delta);
 
-
 		//set modal rotation smoothly
 		easing.dampE(
 			group.current.rotation,
